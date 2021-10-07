@@ -53,8 +53,7 @@ Binaries/*
 Plugins/*/Binaries/*
 
 # Builds
-# FIXME: DON'T IGNORE
-# Build/*
+Build/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
@@ -76,3 +75,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# TODO: STORE SECURELY
+!Build/Android/*.keystore
