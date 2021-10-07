@@ -53,7 +53,8 @@ Binaries/*
 Plugins/*/Binaries/*
 
 # Builds
-Build/*
+# FIXME: DON'T IGNORE
+# Build/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
